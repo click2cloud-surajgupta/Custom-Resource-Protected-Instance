@@ -13,14 +13,14 @@ Manages a SDRS protected instance resource within OpenTelekomCloud.
 ## Example Usage
 
 ```hcl
-resource "opentelekomcloud_sdrs_protectedinstance_v1" "group_1" {
+resource "opentelekomcloud_sdrs_protectedinstance_v1" "pro_instance" {
     server_group_id="{{ protection_group_id }}"
     server_id="{{ ecs_id }}"	
-    name = "test_1"
-	description = "test description"
-	primary_subnet_id = "{{ primary_subnet_id }}"
-	primary_ip_address = "{{ primary_ip_address }}"
-	flavorRef = "{{flavor_id}}"
+    name = "Demo_instance"
+    description = "Hello Instance"
+    primary_subnet_id = "{{ primary_subnet_id }}"
+    primary_ip_address = "{{ primary_ip_address }}"
+    flavorRef = "{{flavor_id}}"
 }
 
 ```
