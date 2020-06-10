@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "um9cX6rw3fLEcwM/VJDYxDqdV8g=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/sdrs/v1/protectedinstances",
+			"revision": "01f50f18de774ca43105c63043c93e672514fefa",
+			"revisionTime": "2020-05-27T06:11:57Z"
+		}
+	],
+	"rootPath": "opentelekomcloud/terraform-provider-opentelekomcloud"
+}
